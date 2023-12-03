@@ -1,0 +1,1 @@
+import{_ as e,h as c,j as t}from"./index-b2c0d808.js";const n={},r={class:"bg-white dark:bg-dark p-4"};function s(o,a){return c(),t("div",r,"Menu23")}const d=e(n,[["render",s]]);export{d as default};

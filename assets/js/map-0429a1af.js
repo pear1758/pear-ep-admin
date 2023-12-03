@@ -1,0 +1,1 @@
+import{d as t,A as a,h as n,j as s,e as c,k as r,l as p,D as _}from"./index-b2c0d808.js";const l={class:"bg-white dark:bg-dark p-4"},u=t({__name:"map",setup(d){function e(){_("2121wwwww12oooooooooww21")}return(i,m)=>{const o=a("el-button");return n(),s("div",l,[c(o,{type:"primary",onClick:e},{default:r(()=>[p("测试")]),_:1})])}}});export{u as default};
