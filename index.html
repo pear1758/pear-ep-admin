@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EP-Admin</title>
+    <script type="module" crossorigin src="./assets/js/index-858e4013.js"></script>
+    <link rel="stylesheet" href="./assets/css/index-bffc020f.css">
+  </head>
+  <body>
+    <div id="app">
+      <style>#app,body,html{height:100%;margin:0;padding:0;width:100%}.loading-box{flex-direction:column;height:100%;width:100%}.loading-box,.loading-box .loading-wrap{align-items:center;display:flex;justify-content:center}.loading-box .loading-wrap{padding:98px}.dot{animation:ant-rotate 1.2s linear infinite;box-sizing:border-box;display:inline-block;font-size:32px;height:32px;position:relative;transform:rotate(45deg);width:32px}.dot i{animation:ant-spin-move 1s linear infinite alternate;background-color:#409eff;border-radius:100%;display:block;height:14px;opacity:.3;position:absolute;transform:scale(.75);transform-origin:50% 50%;width:14px}.dot i:first-child{left:0;top:0}.dot i:nth-child(2){animation-delay:.4s;right:0;top:0}.dot i:nth-child(3){animation-delay:.8s;bottom:0;right:0}.dot i:nth-child(4){animation-delay:1.2s;bottom:0;left:0}@keyframes ant-rotate{to{transform:rotate(405deg)}}@keyframes ant-spin-move{to{opacity:1}}</style>
+
+      <div class="loading-box">
+        <div class="loading-wrap">
+          <span class="dot dot-spin">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // 保持和主题相同的Loading
+      const color = JSON.parse(localStorage.getItem('systemConfig'))?.themeColor // String || undefined
+      const isDark = JSON.parse(localStorage.getItem('systemConfig'))?.isDark // Boolean || undefined
+
+      const html = document.querySelector('html')
+      const dot = document.querySelectorAll('.dot i')
+
+      if (isDark) html.style.background = '#141414'
+
+      color &&
+        dot.forEach(item => {
+          item.style.background = color
+        })
+    </script>
+
+    
+  </body>
+</html>

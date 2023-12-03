@@ -1,0 +1,1 @@
+import{_ as n,A as e,h as s,j as c,e as t,s as _}from"./index-858e4013.js";const l={},r={class:"bg-white dark:bg-dark p-4"},d=_("div",null,"国际化演示",-1);function i(p,m){const o=e("el-table"),a=e("el-pagination");return s(),c("div",r,[d,t(o,{"mb-1":"",data:[]}),t(a,{total:100,class:"mt-15"})])}const b=n(l,[["render",i]]);export{b as default};
