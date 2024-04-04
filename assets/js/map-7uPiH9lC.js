@@ -1,0 +1,1 @@
+import{d as t,aP as a,o as n,b as s,I as c,bu as r,H as p,bG as _}from"./index-ClfDdxmO.js";const d={class:"bg-white dark:bg-dark p-4"},w=t({__name:"map",setup(i){function o(){_("2121wwwww12oooooooooww21")}return(l,m)=>{const e=a("el-button");return n(),s("div",d,[c(e,{type:"primary",onClick:o},{default:r(()=>[p("测试")]),_:1})])}}});export{w as default};
