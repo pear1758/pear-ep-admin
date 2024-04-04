@@ -1,0 +1,1 @@
+import{bS as a}from"./index-CUD07q8U.js";import{a as o,u as r}from"./index-uGdeCMGa.js";const s=t=>a.post(o,t,{headers:{"Content-Type":"multipart/form-data",...r}}),i=t=>a.get("/console/orgNationwide/getOrganization",t);export{i as g,s as u};

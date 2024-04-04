@@ -1,0 +1,1 @@
+import{bT as t}from"./index-CUD07q8U.js";const i=t({id:"platformConfig",state:()=>({mapConfig:{key:"",securityJsCode:""}}),actions:{setConfig(o){Object.keys(o).forEach(e=>{this[e]=o[e]})}}});export{i as u};
